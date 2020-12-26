@@ -1,7 +1,7 @@
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
 
-public class MultiSet {
+public class MultiSetSample {
     public static void main(String[] args) {
         Multiset<String> multiset = HashMultiset.create();
         multiset.add("a");

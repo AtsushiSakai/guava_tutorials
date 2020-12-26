@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
-public class MultiMap {
+public class MultiMapSample {
     public static void main(String[] args) {
 
         Multimap<String,String> multimap = ArrayListMultimap.create();
