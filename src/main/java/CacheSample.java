@@ -2,6 +2,7 @@ import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
 
+import javax.annotation.Nonnull;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
@@ -15,7 +16,7 @@ public class CacheSample {
                         .build(new CacheLoader<String, Integer>() {  // build the cacheloader
 
                             @Override
-                            public Integer load(String id) {
+                            public Integer load(@Nonnull String id) {
                                 return getFromDatabase(id);
                             }
                         });
