@@ -1,5 +1,4 @@
 import com.google.common.primitives.UnsignedInteger;
-import com.google.common.primitives.UnsignedInts;
 
 public class UnsignedSample {
 
